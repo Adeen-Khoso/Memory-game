@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+}
+body{
+    background-image: url(background.png);
+}
+header{
+    margin: 10px;
+    margin-right:550px ;
+    margin-left: 550px;
+    font-family: fantasy;
+    padding:20px;
+    text-align: center;
+    color:#edf5e1 ;
+    font-size: 45px;
+    border-radius: 25px;
+}
+nav{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    padding: 15px;
+    font-size:27px ;
+    background-color: #379683;
+    margin-right:150px;
+    margin-left: 150px;
+    border-radius: 15px;
+    color:#05386b;
+    font-weight: 800;
+}
+.contact-us{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100px;
+    padding: 10px;
+    background-color: #05386b;
+    border-radius: 8px;
+    text-align: center;
+    margin: 7px;
+    margin-right: 15px;
+    color: #edf5e1;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 270px;
+    margin-right: 270px;
+    margin-top: 45px;
+
+}
+.boxes {
+    flex-basis: calc(33.33% - 20px);
+    height: 150px;
+    background-color: #05386b;
+    margin: 5px;
+    margin-top: 6px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+.boxes:hover{
+    height: 160px;
+    background-color: #08427b;
+    box-shadow:2px 2px 2px 1px rgb(66, 66, 66) ;
+}
+.result{
+    background-color: #8ee4af;
+    padding: 15px;
+    margin-top: 40px;
+    margin-right: 220px;
+    margin-left: 180px;
+    border-radius: 12px;
+    color:#05386b; ;
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 800;
+    text-align: center;
+}
+.score{
+    width: 150px;
+    padding: 10px;
+    margin-left: 700px;
+    margin-top: 10px;
+    background-color: #379683;
+    border-radius: 8px;
+    text-align: center;
+    margin-right: 500px;
+    color: #edf5e1;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    border: 0px;  
+    font-size: 16px;
+}
